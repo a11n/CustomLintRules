@@ -59,7 +59,7 @@ You will find the AAR file in `aarWrapper/build/outputs/aar/`. Just copy it to t
 ## Remark
 As Google points out very significant, the Lint API **is not final and may change in future releases** [4].
 
-This project refers to the most recent (March 2015), stable version (24.1.3) of the Lint API [5].
+This project refers to the most recent (April 2015), stable version (24.2.1) of the Lint API [5].
 
 ## Credits
 Approaches used in this project have (partly) been adopted from this blog post [6].
