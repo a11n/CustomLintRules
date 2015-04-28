@@ -70,5 +70,5 @@ Thank you Cheng Yang for sharing your ideas and findings.
 2. https://github.com/a11n/lint-junit-rule (visited 2015-04-25)
 3. http://tools.android.com/tech-docs/new-build-system/aar-format (visited 2015-04-25)
 4. http://tools.android.com/tips/lint/writing-a-lint-check (visited 2015-04-25)
-5. http://mvnrepository.com/artifact/com.android.tools.lint/lint-api/24.1.3 (visited 2015-04-25)
+5. https://bintray.com/android/android-tools/com.android.tools.lint.lint-api/24.2.1/view (visited 2015-04-28)
 6. https://engineering.linkedin.com/android/writing-custom-lint-checks-gradle (visited 2015-04-25)
