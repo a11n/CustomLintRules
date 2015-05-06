@@ -59,7 +59,7 @@ You will find the AAR file in `aarWrapper/build/outputs/aar/`. Just copy it to t
 ## Remark
 As Google points out very significant, the Lint API **is not final and may change in future releases** [4].
 
-This project refers to the most recent (April 2015), stable version (24.2.1) of the Lint API [5].
+This project refers to the most recent (May 2015), stable version (24.2.3) of the Lint API [5].
 
 ## Credits
 Approaches used in this project have (partly) been adopted from this blog post [6].
@@ -70,5 +70,5 @@ Thank you Cheng Yang for sharing your ideas and findings.
 2. https://github.com/a11n/lint-junit-rule (visited 2015-04-25)
 3. http://tools.android.com/tech-docs/new-build-system/aar-format (visited 2015-04-25)
 4. http://tools.android.com/tips/lint/writing-a-lint-check (visited 2015-04-25)
-5. https://bintray.com/android/android-tools/com.android.tools.lint.lint-api/24.2.1/view (visited 2015-04-28)
+5. https://bintray.com/android/android-tools/com.android.tools.lint.lint-api/24.2.3/view (visited 2015-05-04)
 6. https://engineering.linkedin.com/android/writing-custom-lint-checks-gradle (visited 2015-04-25)
