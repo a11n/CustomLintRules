@@ -45,18 +45,15 @@ public class HelloWorldDetector extends Detector
     return file.getName().equals(ANDROID_MANIFEST_XML);
   }
 
-  @Override public Collection<String> getApplicableElements() {
-    return Arrays.asList(TAG_APPLICATION);
-  }
-
   @Override public Collection<String> getApplicableAttributes() {
     return Arrays.asList(ATTR_LABEL);
   }
 
   @Override public void visitAttribute(@NonNull XmlContext context,
       @NonNull Attr attribute) {
-    //avoid checking of <application>'s children, such as <activity>
-    if (!TAG_APPLICATION.equals(attribute.getOwnerElement().getTagName())) {
+    //only check 'label' attribute of <application>-tag
+    String tagName = attribute.getOwnerElement().getTagName();
+    if (!TAG_APPLICATION.equals(tagName)) {
       return;
     }
 
@@ -67,10 +64,5 @@ public class HelloWorldDetector extends Detector
           String.format(
               "Unexpected title \"%1$s\". Should be \"Hello world.\".", value));
     }
-  }
-
-  @Override public void visitElement(@NonNull XmlContext context,
-      @NonNull Element element) {
-    //needs to be overridden
   }
 }
