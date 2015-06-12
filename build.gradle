@@ -7,10 +7,10 @@ repositories {
 }
 
 dependencies {
-    compile 'com.android.tools.lint:lint-api:24.3.0-beta1'
+    compile 'com.android.tools.lint:lint-api:24.3.0-beta3'
     testCompile 'junit:junit:4.12'
     testCompile 'org.assertj:assertj-core:3.0.0'
-    testCompile 'com.android.tools.lint:lint:24.3.0-beta1'
+    testCompile 'com.android.tools.lint:lint:24.3.0-beta3'
     testCompile 'com.ad.android.tools.lint:lint-junit-rule:0.1.3'
 }
 
