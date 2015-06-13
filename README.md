@@ -1,7 +1,7 @@
 # CustomLintRules
 A basic, Gradle-based project template for writing custom Android Lint rules.
 
-## How to start?
+## Getting started
 ### Step 1
 Clone this repository and open it in the IDE of your choice.
 
@@ -32,7 +32,7 @@ Finally you might want to have a unit test for your custom Lint rules in place. 
 
 That’s it.
 
-## How to integrate?
+## Application
 In order to apply your custom Lint rules to your project you basically have two options.
 
 ### 1. Copy your rules to a specific folder
@@ -59,7 +59,7 @@ You will find the AAR file in `aarWrapper/build/outputs/aar/`. Just copy it to t
 ## Remark
 As Google points out very significant, the Lint API **is not final and may change in future releases** [4].
 
-This project refers to the most recent (May 2015), stable version (24.3.0-beta1) of the Lint API [5].
+This project refers to the most recent (June 2015), stable version (24.3.0-beta3) of the Lint API [5].
 
 ## Credits
 Approaches used in this project have (partly) been adopted from this blog post [6].
@@ -70,5 +70,5 @@ Thank you Cheng Yang for sharing your ideas and findings.
 2. https://github.com/a11n/lint-junit-rule (visited 2015-04-25)
 3. http://tools.android.com/tech-docs/new-build-system/aar-format (visited 2015-04-25)
 4. http://tools.android.com/tips/lint/writing-a-lint-check (visited 2015-04-25)
-5. https://bintray.com/android/android-tools/com.android.tools.lint.lint-api/24.3.0-beta1/view (visited 2015-05-28)
+5. https://bintray.com/android/android-tools/com.android.tools.lint.lint-api/24.3.0-beta3/view (visited 2015-06-11)
 6. https://engineering.linkedin.com/android/writing-custom-lint-checks-gradle (visited 2015-04-25)
