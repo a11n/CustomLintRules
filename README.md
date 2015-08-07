@@ -28,7 +28,7 @@ I recommend to have a look at the default set of detectors to get an impression 
 Detectors scan the development artifacts for one or more issues to report. Last but not least you need to register your custom issue(s) in the `CustomIssueRegistry`.
 
 ### Step 4
-Finally you might want to have a unit test for your custom Lint rules in place. I've created a JUnit rule for that purpose and your convenience [2]. `HelloWorldDetectorTest` demonstrates how to test custom Lint rules.
+Finally you might want to have a unit test for your custom Lint rules in place. Since end of July 2015 there is an official lint-tests library available for that purpose. [2]. `HelloWorldDetectorTest` demonstrates how to test custom Lint rules.
 
 That’s it.
 
@@ -59,7 +59,7 @@ You will find the AAR file in `aarWrapper/build/outputs/aar/`. Just copy it to t
 ## Remark
 As Google points out very significant, the Lint API **is not final and may change in future releases** [4].
 
-This project refers to the most recent (June 2015), stable version (24.3.0-beta3) of the Lint API [5].
+This project refers to the most recent (July 2015), stable version (24.3.0) of the Lint API [5].
 
 ## Credits
 Approaches used in this project have (partly) been adopted from this blog post [6].
@@ -67,8 +67,8 @@ Thank you Cheng Yang for sharing your ideas and findings.
 
 ## References
 1. https://android.googlesource.com/platform/tools/base/+/master/lint/libs/lint-checks/src/main/java/com/android/tools/lint/checks (visited 2015-04-25)
-2. https://github.com/a11n/lint-junit-rule (visited 2015-04-25)
+2. https://bintray.com/android/android-tools/com.android.tools.lint.lint-tests/24.3.0/view (visited 2015-08-01)
 3. http://tools.android.com/tech-docs/new-build-system/aar-format (visited 2015-04-25)
 4. http://tools.android.com/tips/lint/writing-a-lint-check (visited 2015-04-25)
-5. https://bintray.com/android/android-tools/com.android.tools.lint.lint-api/24.3.0-beta3/view (visited 2015-06-11)
+5. https://bintray.com/android/android-tools/com.android.tools.lint.lint-api/24.3.0/view (visited 2015-08-01)
 6. https://engineering.linkedin.com/android/writing-custom-lint-checks-gradle (visited 2015-04-25)
