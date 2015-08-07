@@ -4,14 +4,16 @@ version = '1.0.0'
 
 repositories {
     jcenter()
+    maven {
+        url  'https://dl.bintray.com/android/android-tools'
+    }
 }
 
 dependencies {
-    compile 'com.android.tools.lint:lint-api:24.3.0-beta3'
+    compile 'com.android.tools.lint:lint-api:24.3.0'
     testCompile 'junit:junit:4.12'
     testCompile 'org.assertj:assertj-core:3.0.0'
-    testCompile 'com.android.tools.lint:lint:24.3.0-beta3'
-    testCompile 'com.ad.android.tools.lint:lint-junit-rule:0.1.3'
+    testCompile 'com.android.tools.lint:lint-tests:24.3.0'
 }
 
 jar {
