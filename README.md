@@ -1,6 +1,8 @@
 # CustomLintRules
 A basic, Gradle-based project template for writing custom Android Lint rules.
 
+If you want to learn more about custom Lint rules please check [this reference guide](https://github.com/a11n/android-lint). If you are still looking for more details you are welcome to check [this workshop on custom Lint rules](https://github.com/a11n/lint-workshop-slides).
+
 ## Getting started
 ### Step 1
 Clone this repository and open it in the IDE of your choice.
